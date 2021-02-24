@@ -63,11 +63,15 @@
 ## 改进优化
 
 1.使用对抗(58->61)
+![1](img/first_score_0.58.png)
 
 2.使用attention(58->63)
+![2](img/score_0.63.png)
 
 - attention + adv(还是61,说明在attention之后进行adv效果并没有啥提升)
 - 把梯度累积设置为64(63->65)
+![3](img/score_0.65.png)
+![3](img/rank11.png)
 
 3.使用Bert动态融合
 
