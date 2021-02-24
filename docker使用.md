@@ -67,6 +67,7 @@
 2.使用attention(58->63)
 
 - attention + adv(还是61,说明在attention之后进行adv效果并没有啥提升)
+- 把梯度累积设置为64(63->65)
 
 3.使用Bert动态融合
 
